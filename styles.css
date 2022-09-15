@@ -1,41 +1,37 @@
-#num1
+.size
 {
     color: red;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-right: 100px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
     border: 2px dashed rgb(246, 7, 7);
     background-color: rgb(162, 248, 171);
     border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#num1
+{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #operator
 {
-    color: red;
-    margin-right: 100px;
-    margin-bottom: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-sizing: border-box;
-    border: 2px dashed rgb(246, 7, 7);
-    background-color: rgb(162, 248, 171);
-    border-radius: 15px;
+    margin-right: 100px;
+    margin-bottom: 30px;
 }
 
 #num2
 {
-    color: red;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    border: 2px dashed rgb(246, 7, 7);
-    background-color: rgb(162, 248, 171);
-    border-radius: 15px;
+    margin-bottom: 30px;
 }
 
 button
@@ -44,31 +40,23 @@ button
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 250px;
-    color: red;
-    box-sizing: border-box;
-    border: 2px dashed rgb(246, 7, 7);
-    background-color: rgb(162, 248, 171);
-    border-radius: 15px;
+    margin-left: 255px;
 }
 
 #result
 {
-    color: red;
-    margin-left: 180px;
-    margin-top: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    border: 2px dashed rgb(246, 7, 7);
-    background-color: rgb(162, 248, 171);
-    border-radius: 15px;
+    margin-left: 185px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 #box
 {
     background-color: rgb(162, 248, 171);
-    margin-right: 910px;
+    margin-right: 900px;
     border-radius: 15px;
 }

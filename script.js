@@ -4,7 +4,11 @@ function buttonClick()
     var number2 = document.getElementById("num2").value;
     var operator = document.getElementById("operator").value;
     var result = 0;
-    if(isNaN(number1) || isNaN(number2))
+    if(number1 == "" || number2 == "")
+    {
+        alert("please enter number")
+    }
+    else if(isNaN(number1) || isNaN(number2))
     {
         alert("invalid number, please enter the right number")
     }
